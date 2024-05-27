@@ -25,9 +25,15 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Register - Merrin</title>
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900" rel="stylesheet">
+    <title>Login - Merrin</title>
+
+    <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="css/sb-admin-2.min.css" rel="stylesheet">
+
     <style>
         body {
             font-family: 'Nunito', sans-serif;
@@ -75,7 +81,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         }
 
         .form-container {
-            background-color: #f8d7da;
+            background-color: #f8d7da; /* Light red color */
             border-radius: 10px;
             padding: 30px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -87,10 +93,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     <div class="container">
 
+        <!-- Outer Row -->
         <div class="row justify-content-center">
             <div class="col-xl-6 col-lg-8 col-md-10">
                 <div class="card shadow-lg my-5">
                     <div class="card-body p-5 form-container">
+                        <!-- Nested Row within Card Body -->
                         <div class="text-center">
                             <h1 class="h4 text-gray-900 mb-4">Create an Account!</h1>
                         </div>
@@ -122,9 +130,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     </div>
 
+    <!-- Bootstrap core JavaScript-->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="js/sb-admin-2.min.js"></script>
+
 </body>
 
 </html>
